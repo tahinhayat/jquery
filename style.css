@@ -1,0 +1,100 @@
+/* header start */
+header{
+    background-color: #FFC107;
+}
+.menu ul  li a{
+    font-size: 22px;
+    font-weight: 400;
+    color: #010101 !important;
+    padding: 0 25px !important;
+    transition: .3s all ease-in-out;
+}
+.menu ul li:last-child a{
+    padding-right: 0 !important;
+}
+.menu ul li a:hover {
+    color: white !important;
+}
+/* header end */
+
+.bt{
+    padding: 5px 70px;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+}
+.bt:focus{
+    box-shadow: none !important;
+}
+.image{
+    cursor: pointer;
+}
+.flip{
+    display: none;
+}
+.hd1{
+    background-color: violet;
+}
+#draggable1 {
+    cursor: move;
+}
+.dwc{
+    border: transparent;
+    background-color: transparent;
+    color: transparent;
+}
+#draggable2{
+  cursor: crosshair;
+}
+#droppable { 
+    width: 400px; 
+    height: 250px; 
+    float: left;
+    background-color: violet;
+}
+#sortable{
+    cursor: pointer;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background: red;
+    border: transparent;
+}
+.form-control{
+    padding: 10px 20px;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.ui-menu {
+    width: 550px;
+}
+.toggler {
+    position: relative;
+    width: 500px; 
+    height: 200px;
+    text-align: center;
+    margin-left: 100px;
+}
+#button {
+    padding: 20px; 
+    text-decoration: none;
+}
+#effect {
+    width: 400px; 
+    height: 260px; 
+    padding: 0.4em; 
+    position: relative;
+}
+#effect h3 {
+    margin: 0; 
+    padding: 10px; 
+    text-align: center;
+}
+.clr{
+    margin-bottom: 100px;
+}
+.anmtn_btn{
+    padding: 8px 20px !important;
+    margin-top: 80px;
+    margin-left: 200px;
+}

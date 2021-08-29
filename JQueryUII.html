@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- font links -->
+
+    <!-- CSS links-->
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- title  -->
+    <title>JQUERY UI</title>
+  </head>
+
+  <body class="bg-info">
+    <!-- header start -->
+    <header class="hd1">
+      <div class="container p-0">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light c_nav">
+          <div class="container-fluid">
+            <!-- logo -->
+            <a class="navbar-brand" href="index.html">
+              <h1 class="display-5">JQUERY</h1>
+            </a>
+            <!-- logo end -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav_custom" aria-controls="nav_custom" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- menu -->
+            <div class="collapse navbar-collapse menu" id="nav_custom">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <!-- nav item -->
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="JQueryUI.html">JQuery UI</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="JQueryUII.html">JQuery UII</a>
+                </li>
+              </ul>        
+            </div>
+          </div>
+        </nav>
+        <!-- navbar end -->
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- accordion -->
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h1 class="bg-light mb-3">Accor<span class="display-5 text-danger">dion</span> </h1>
+          <div id="accordion1">
+            <div class="group">
+              <h3>Section 1</h3>
+              <div>
+                <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+              </div>
+            </div>
+            <div class="group">
+              <h3>Section 2</h3>
+              <div>
+                <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+              </div>
+            </div>
+            <div class="group">
+              <h3>Section 3</h3>
+              <div>
+                <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+                <ul>
+                  <li>List item one</li>
+                  <li>List item two</li>
+                  <li>List item three</li>
+                </ul>
+              </div>
+            </div>
+            <div class="group">
+              <h3>Section 4</h3>
+              <div>
+                <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- autocomplete -->
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h1 class="bg-light mb-3">Auto<span class="display-5 text-danger">complete</span> </h1>
+          <form action="">
+            <h3 class="text-dark h5 text-start">Your Skill</h3>
+            <input type="text" class="form-control" id="autoCplt" placeholder="write your skills">
+            <button type="submit" class="btn btn-danger bt my-3">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- datepicker -->
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h1 class="bg-light mb-5">Date<span class="display-5 text-danger">picker</span> </h1>
+          <p class="text-dark h5">Date : <input type="text" id="datepicker"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- menu -->
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-6 text-center">
+          <h1 class="bg-light mb-3">Men<span class="display-5 text-danger">U</span> </h1>
+          <ul id="menu">
+            <li class="ui-state-disabled"><div>ITEMS</div></li>
+            <li><div>Books</div>
+              <ul>
+                <li><div>Robinson Crusoe</div></li>
+                <li><div>The Vinchi Code</div></li>
+                <li><div>The Lost Symbol</div></li>
+                <li><div>Paradise Lost</div></li>
+              </ul>
+            </li>
+            <li><div>Electronics</div>
+              <ul>
+                <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+                <li><div>Car Hifi</div></li>
+                <li><div>Utilities</div></li>
+              </ul>
+            </li>
+            <li><div>Movies</div>
+              <ul>
+                <li><div>Shutter Island</div></li>
+                <li><div>Singing in the rain</div></li>
+                <li><div>Grave of fireflies</div></li>
+                <li><div>Casablanka</div></li>
+              </ul>
+            </li>
+            <li><div>Music</div>
+              <ul>
+                <li><div>Rock</div>
+                  <ul>
+                    <li><div>Alternative</div></li>
+                    <li><div>Classic</div></li>
+                  </ul>
+                </li>
+                <li><div>Jazz</div>
+                  <ul>
+                    <li><div>Freejazz</div></li>
+                    <li><div>Big Band</div></li>
+                    <li><div>Modern</div></li>
+                  </ul>
+                </li>
+                <li><div>Pop</div></li>
+              </ul>
+            </li>
+            <li><div>Clothing</div>
+              <ul>
+                <li><div>Men's</div></li>
+                <li><div>Woman</div></li>
+                <li><div>Baby</div></li>
+                <li><div>Brand</div>
+                  <ul>
+                    <li><div>Arong</div></li>
+                    <li><div>LA'Reve</div></li>
+                    <li><div>Waoooww</div></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- color animation -->
+    <div div class="container clr">
+      <div class="row">
+        <div div="col-lg-8">
+          <h1 class="bg-light mb-5 text-center">Color<span class="display-5 text-danger">Animation</span> </h1>
+          <div class="toggler">
+            <div id="effect" class="ui-widget-content ui-corner-all">
+              <h3 class="ui-widget-header ui-corner-all">Let's See</h3>
+              <p>Etiam libero neque, luctus a, eleifend nec elit. Veritatis, nulla? semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.</p>
+              <img src="images/nature.jpg" width="200px" height="100px" alt="">
+            </div>
+          </div>
+           
+          <button id="button" class="btn btn-warning bt ui-state-default ui-corner-all anmtn_btn">Toggle Effect</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- js links -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+  
+  </body>
+</html>
